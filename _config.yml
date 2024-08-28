@@ -24,5 +24,5 @@ minima:
   skin: auto
 
 social_links:
-     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/tanveer-abdulaziz" }
+     - {platform: linkedin, user_url: "https://www.linkedin.com/in/tanveer-abdulaziz"}
   
