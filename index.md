@@ -6,7 +6,9 @@ Welcome to my project portfolio! Here, you'll find a collection of hands-on proj
 
 # Projects
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+[Capture The Flags](/ctfs.md)
+[SOC Labs](/socs.md)
+[Cyberdefenders Challenges](/cyberdef.md)
 
 ## Header 2
 
