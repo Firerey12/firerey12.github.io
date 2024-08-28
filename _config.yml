@@ -15,7 +15,7 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
-  - ctfs/ctf.md
+  - ctfs.md
 
 minima:
   skin: auto
