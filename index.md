@@ -6,7 +6,7 @@ Welcome to my project portfolio! Here, you'll find a collection of hands-on proj
 
 # Projects
 
-[Capture The Flags](./ctfs.md)
+[Capture The Flags](./ctfs/ctfs.md)
 [SOC Labs](./socs.md)
 [Cyberdefenders Challenges](/cyberdef.md)
 
