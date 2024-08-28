@@ -16,6 +16,9 @@ plugins:
 
 header_pages:
   - ctfs.md
+  - socs.md
+  - cyberdef.md
+  - overthewire.md
 
 minima:
   skin: auto
