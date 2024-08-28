@@ -9,3 +9,9 @@ layout: home
 ---
 
 Welcome to my project portfolio! Here, you'll find a collection of hands-on projects that showcase my passion for cybersecurity, web development, and system administration. This portfolio includes a range of Capture The Flag (CTF) challenges and Security Operations Center (SOC) lab exercises, where I've applied my technical skills to solve real-world security problems.
+
+## Projects and Challenges
+- Capture the Flags (CTFs)
+- SOC Projects
+- Cyberdefenders Challenges
+- Overthewire Challenges
