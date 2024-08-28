@@ -2,15 +2,9 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Welcome to my project portfolio! Here, you'll find a collection of hands-on projects that showcase my passion for cybersecurity, web development, and system administration. This portfolio includes a range of Capture The Flag (CTF) challenges and Security Operations Center (SOC) lab exercises, where I've applied my technical skills to solve real-world security problems.
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
+# Projects
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
