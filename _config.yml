@@ -1,4 +1,25 @@
 title: Tanveer Abdulaziz Portfolio
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-hacker
+author:
+  name: Tanveer Abdulaziz
+  email: tanveer.ismail40@gmail.com
+
+description: >
+  Welcome to my project portfolio! Here, you'll find a collection of hands-on projects that showcase my passion for cybersecurity, web development, and system administration. 
+  This portfolio includes a range of Capture The Flag (CTF) challenges and Security Operations Center (SOC) lab exercises, where I've applied my technical skills to solve real-world security problems.
+
+# theme: minima
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - ctfs/ctf.md
+
+minima:
+  skin: dark
+
+social_links:
+     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/tanveer-abdulaziz" }
+  
