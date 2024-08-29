@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Active Directory Project
-permalink: /soc-projects/AD-Project
 categories: SOC Projects
 ---
 
