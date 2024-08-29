@@ -5,7 +5,7 @@ categories: CTFs
 permalink: /cyberdefenders/tomcat-takeover/
 ---
 
-# Details
+## Details
 
 https://cyberdefenders.org/blueteam-ctf-challenges/tomcat-takeover/
 
