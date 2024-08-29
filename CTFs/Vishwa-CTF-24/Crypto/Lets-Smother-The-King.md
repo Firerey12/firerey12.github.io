@@ -19,14 +19,14 @@ FLAG FORMAT:
 VishwaCTF{write the chess moves}
 
 Files Provided:
-- [code.txt](Files/code.txt)
+- [code.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Lets%20smother%20the%20King!/Files/code.txt)
 
 # Solution
 This was a very interesting puzzle as it involved chess, a game which I enjoy but am not the best at. Nevertheless, it was an interesting solve. Looking at the description provided we can see some obvious clues, such as the names look like they could give us much information.
 The description mentions a programming language and a file which is appropriately named code.txt. This tells us that the code.txt is some sort of weird programming language code or an obfuscated code. After a quick Google search of `olmstead programming language` we come across a wikipedia page for [Malbolge](https://en.wikipedia.org/wiki/Malbolge) a very 
 difficult looking programming language, but one that looks a lot like our code.txt
 
-[code.txt](Files/code.txt)
+[code.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Lets%20smother%20the%20King!/Files/code.txt)
 ```
 
 D'`A_9!7};|jE7TBRdQbqM(n&JlGGE3feB@!x=v<)\r8YXtsl2Sonmf,jLKa'edFEa`_X|?UTx;WPUTMqKPONGFjJ,HG@d'=BA@?>7[;4z21U54ts10/.'K+$j(!Efe#z@a}vut:[Zvutsrqj0ngOe+Lbg`edc\"CBXW{[TSRvP8TMq4JONGFj-IBGF?c=a$@9]=6|:3W10543,P*/.'&%$Hi'&%${z@a}vut:xqp6nVrqpoh.fedcb(IHdcba`_X|V[ZYXWPOsMLKJINGkKJI+G@dDCBA#"8=6Z4z21U5ut,P0)(-&J*)"!E}e#"!x>|uzs9qvo5srkpingf,Mchg`_%cbaZBXW{>=YXWPOs65KPImMLEDIBf)(D=a$:?>7<54X210/43,Pqp(',+*#G'gf|B"y?}v^tsr8vuWsrqpi/POkdibgf_%]b[Z_X|?>TYRQu8TMqQPIHGkEJIBA@dD&B;@?8\<5{3W70/.-Q10/on,%Ij('~}|B"!~}_u;y[Zponm3qpoQg-kjihgfeG]#aCBXW{[ZYX:Pt7SRQJONMLEiIHA@?cCB$@9]~<;:921U543,10/.-&J*j('~}${A!~}vuzs9Zponm3qpihmf,jihgfeG]#n
@@ -35,7 +35,7 @@ D'`A_9!7};|jE7TBRdQbqM(n&JlGGE3feB@!x=v<)\r8YXtsl2Sonmf,jLKa'edFEa`_X|?UTx;WPUTM
 
 After this it was just a matter of finding a compiler for Malbolge. I used [this](https://www.tutorialspoint.com/execute_malbolge_online.php) compiler by tutorialspoint. After running the code we finally get the puzzle mentioned in the description.
 
-[malbolge_result.txt](Solution/malbolge_result.txt)
+[malbolge_result.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Lets%20smother%20the%20King!/Solution/malbolge_result.txt)
 ```
 
 White- Ke1,Qe5,Rc1,Rh1,Ne6,a2,b3,d2,f2,h2 Black- Ka8,Qh3,Rg8,Rh8,Bg7,a7,b7,e4,g2,g6,h7
@@ -44,7 +44,7 @@ White- Ke1,Qe5,Rc1,Rh1,Ne6,a2,b3,d2,f2,h2 Black- Ka8,Qh3,Rg8,Rh8,Bg7,a7,b7,e4,g2
 
 Thereafter I just decided to use an online chess tool (https://nextchessmove.com/) to set up the board and also solve the moves (since I was lazy to solve the puzzle myself).
 
-![Puzzle Solve](Solution/puzzle_solve.png)
+![Puzzle Solve](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Lets%20smother%20the%20King!/Solution/puzzle_solve.png)
 
 That gave us the moves for the flag:
 
