@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cryptography Challenges
-categories: SOC-Projects
+categories: CTFs
 permalink: /ctfs/Vishwa-CTF-24/Cryptography
 ---
 
