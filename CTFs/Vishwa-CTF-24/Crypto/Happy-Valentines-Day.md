@@ -64,7 +64,8 @@ Files provided:
   ```
 3. Finally after running the code, we finally get the recovered image, which shows us the flag.
    
-   ![Recovered Png](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Happy%20Valentines%20Day/Solution/recovered.png)
+![recovered](https://github.com/user-attachments/assets/70b64e80-f49b-48ee-a565-486edaf0887b)
+
 
 ## Flag
 VishwaCTF{h3ad3r5_f0r_w1nn3r5}
