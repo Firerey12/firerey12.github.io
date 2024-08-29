@@ -22,6 +22,8 @@ header_pages:
 minima:
   skin: auto
 
-social_links:
-     - {platform: linkedin, user_url: "https://www.linkedin.com/in/tanveer-abdulaziz"}
+  social_links:
+    - {platform: linkedin, user_url: "https://www.linkedin.com/in/tanveer-abdulaziz"}
+    - {platform: github, user_url: "https://github.com/jekyll/minima"}
+    
   
