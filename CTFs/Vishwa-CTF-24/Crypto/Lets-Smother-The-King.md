@@ -2,7 +2,7 @@
 layout: page
 title: Let's Smother The Kings
 categories: CTFs
-permalink: /ctfs/Vishwa-CTF-24/Cryptography/lets-smother-the-king
+permalink: /ctfs/Vishwa-CTF-24/Cryptography/lets-smother-the-king/
 ---
 
 # Problem
