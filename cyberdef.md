@@ -4,15 +4,7 @@ title: Cyberdefenders
 permalink: /cyber-defenders/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+In this section, you'll find detailed writeups of the challenges I've tackled on the CyberDefenders platform. CyberDefenders provides a wide range of cybersecurity challenges designed to sharpen your skills in areas such as digital forensics, threat hunting, malware analysis, and incident response.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## Challenges
+- [Tomcat Takeover](./tomcat-takeover)
