@@ -9,6 +9,6 @@ These are the cryptography challenges that I was able to solve in the Vishwa CTF
 
 ## Cryptography Challenges
 - [Happy Valentine's Day](./happy-valentines-day)
-- [Let's Smother The King](./smother-the-king)
+- [Let's Smother The King](./lets-smother-the-king)
 - [Poly Fun](./poly-fun)
 - [Teyvat Tales](./teyvat-tales)
