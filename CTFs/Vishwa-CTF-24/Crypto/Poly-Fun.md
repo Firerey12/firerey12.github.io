@@ -14,29 +14,29 @@ FLAG FORMAT:
 VishwaCTF{}
 
 Files Provided:
-- [encoded_flag.txt](Files/encoded_flag.txt)
-- [encoded_key.txt](Files/encoded_key.txt)
-- [challenge.py](Files/challenge.py)
+- [encoded_flag.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Files/encoded_flag.txt)
+- [encoded_key.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Files/encoded_key.txt)
+- [challenge.py](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Files/challenge.py)
 
 
 # Solution
 1. Looking at the files provided, we can see that we have an AES encrypted flag and a key which seems to be a substitution based cipher and the program with which the key was encoded.
 
-    [encoded_flag.txt](Files/encoded_flag.txt):
+    [encoded_flag.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Files/encoded_flag.txt):
     ```
     
     u5FUKxDUxH9y8yxvfaaU+GSXDwvJS6QxlN/3udOEzpU6fIVUExjDLsB3LKqUTz/x
     
     ```
 
-    [encoded_key.txt](Files/encoded_key.txt):
+    [encoded_key.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Files/encoded_key.txt):
     ```
     
     ☞➭⥄⫣Ⲋ⸹⿰ㆯ㍶☞⒗☞☞☞➭☞⥄☞⫣☞Ⲋ☞⸹☞⿰☞ㆯ☞㍶➭⒗➭
     
     ```
 
-    [challenge.py](Files/challenge.py):
+    [challenge.py](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Files/challenge.py):
     ```python
     
     import numpy as np
@@ -164,7 +164,7 @@ Files Provided:
 
 2. To decode the key, I came up with a code which solved for x in that equation and returned the original key's character code.
 
-    [decode.py](Solution/decode.py):
+    [decode.py](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Poly%20Fun/Solution/decode.py):
     ```python
     
     import numpy as np
