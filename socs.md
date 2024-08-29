@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SOC Project
+title: SOC Projects
 permalink: /soc-projects/
 ---
 
