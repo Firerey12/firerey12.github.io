@@ -2,7 +2,7 @@
 layout: page
 title: Poly Fun
 categories: CTFs
-permalink: /ctfs/Vishwa-CTF-24/Cryptography/poly-fun
+permalink: /ctfs/Vishwa-CTF-24/Cryptography/poly-fun/
 ---
 
 # Problem
