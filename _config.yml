@@ -9,6 +9,8 @@ description: >
 # theme: minima
 remote_theme: jekyll/minima
 
+show_excerpts: true
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
