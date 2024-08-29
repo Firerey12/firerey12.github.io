@@ -2,7 +2,7 @@
 layout: page
 title: Cryptography Challenges
 categories: CTFs
-permalink: /ctfs/Vishwa-CTF-24/Cryptography
+permalink: /ctfs/Vishwa-CTF-24/Cryptography/
 ---
 
 These are the cryptography challenges that I was able to solve in the Vishwa CTF 2024.
