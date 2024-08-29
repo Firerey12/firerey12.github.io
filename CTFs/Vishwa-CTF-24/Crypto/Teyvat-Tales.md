@@ -2,7 +2,7 @@
 layout: page
 title: Teyvat Tales
 categories: CTFs
-permalink: /ctfs/Vishwa-CTF-24/Cryptography/teyvat-tales
+permalink: /ctfs/Vishwa-CTF-24/Cryptography/teyvat-tales/
 ---
 
 # Problem
