@@ -1,4 +1,4 @@
-![cipher](https://github.com/user-attachments/assets/1c5c968d-d704-41b3-962c-566c7b1d6fa1)---
+---
 layout: page
 title: Teyvat Tales
 categories: CTFs
