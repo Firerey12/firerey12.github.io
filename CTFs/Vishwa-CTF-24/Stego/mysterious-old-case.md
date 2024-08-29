@@ -2,7 +2,7 @@
 layout: page
 title: Mysterious Old Case
 categories: CTFs
-permalink: /ctfs/Vishwa-CTF-24/Cryptography/mysterious-old-case/
+permalink: /ctfs/Vishwa-CTF-24/steganography/mysterious-old-case/
 ---
 
 # Problem
