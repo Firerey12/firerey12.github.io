@@ -14,13 +14,13 @@ FLAG FORMAT:
 VishwaCTF{}
 
 Files provided:
-- [enc.txt](Files/enc.txt)
-- [source.txt](Files/source.txt)
+- [enc.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Happy%20Valentines%20Day/Files/enc.txt)
+- [source.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Happy%20Valentines%20Day/Files/source.txt)
 
 # Solution
 1. Looking at the files we were provided. We can see that enc.txt is the encrypted file and the source.txt is a Python code that was used to encrypt it.
    
-  [source.txt](Files/source.txt):
+  [source.txt](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Happy%20Valentines%20Day/Files/source.txt):
   ```python
   from PIL import Image
   from itertools import cycle
@@ -39,7 +39,7 @@ Files provided:
   The code itself is pretty simple, all it does is it loads a file, reads it, and then uses its first eight bytes as the key, and then performs an XOR operation using the key on the file (The key is cycled on each run of the XOR operation). It then finally stores the XORed bytes onto a new file. In this case it saves it to a file called 'enc.txt', which is the file we were provided. So all we have to do is reverse this process.
 2. To reverse the process, first we had to gather the key, which was the first eight bytes of the original png. This was easy to get since the first eight bytes of any file is the identifier for it. So I just grabbed the first eight bytes of any random PNG I could find in my PC and modified the original code provided to us.
 
-  [solution.py](Solution/solution.py):
+  [solution.py](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Happy%20Valentines%20Day/Solution/solution.py):
   ```python
 
   from PIL import Image # Did not really need this
@@ -64,7 +64,7 @@ Files provided:
   ```
 3. Finally after running the code, we finally get the recovered image, which shows us the flag.
    
-   ![Recovered Png](Solution/recovered.png)
+   ![Recovered Png](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Happy%20Valentines%20Day/Solution/recovered.png)
 
 ## Flag
 VishwaCTF{h3ad3r5_f0r_w1nn3r5}
