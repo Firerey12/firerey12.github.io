@@ -2,7 +2,7 @@
 layout: page
 title: Happy Valentine's Day
 categories: CTFs
-permalink: /ctfs/Vishwa-CTF-24/Cryptography/happy-valentines-day
+permalink: /ctfs/Vishwa-CTF-24/Cryptography/happy-valentines-day/
 ---
 
 # Problem
