@@ -1,4 +1,4 @@
----
+![cipher](https://github.com/user-attachments/assets/1c5c968d-d704-41b3-962c-566c7b1d6fa1)---
 layout: page
 title: Teyvat Tales
 categories: CTFs
@@ -21,11 +21,12 @@ Information Provided:
 # Solution
 This challenge was very intriguing to me as a Genshin Impact player, since it was based on the world of Genshin. Initially we are greeted with these texts which seem to be written in the languages that are part of Genshin Impact's world.
 
-![Greetings](Files/greetings.png)
+![greetings](https://github.com/user-attachments/assets/bee12085-3320-4499-9767-acb78ec1444c)
+
 
 It seems we were supposed to translate these texts into English, but since this was a webpage with input fields, Curiosity got the bettter of me an I decided to check the source code, which allowed me to find the script that was running the validation for those fields.
 
-[script.js](Files/script.js)
+[script.js](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Teyvat%20Tales/Files/script.js)
 ```javascript
 
 const submitBtn1 = document.getElementById("submit-btn-1");
@@ -93,11 +94,13 @@ submitBtn4.addEventListener("click", ()=> {
 
 The script contained all the answers to the input fields, but as I thought, it wasn't that easy, since we were greeted with yet another cipher.
 
-![Cipher](Solution/cipher.png)
+![cipher](https://github.com/user-attachments/assets/29b4380c-fe4b-49a5-9bf3-47469cdc0cb2)
+
 
 It seemed to be a substitution cipher, and if we look at the answers to the fields, we can see that they look like configurations for the Enigma machine. So using those configurations to decrypt the cipher using [cryptii.com's Enigma Decoder](https://cryptii.com/pipes/enigma-machine) we get the final flag.
 
-![Enigma Decrypt](Solution/enigma_decrypt.png)
+![enigma_decrypt](https://github.com/user-attachments/assets/3ef66d52-f4e6-40a0-b2e8-7c015f008e7c)
+
 
 ## Flag
 VishwaCTF{beware_of_tone-deaf_bard}
