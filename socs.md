@@ -4,15 +4,7 @@ title: SOC Projects
 permalink: /soc-projects/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+In my SOC lab exercises, I've built and configured environments that simulate real-world security operations. These labs are designed to test and improve my skills in threat detection, incident response, and security monitoring. By leveraging tools like Splunk, Sysmon, and various attack simulation frameworks, I've created comprehensive scenarios that replicate the challenges faced by security professionals in a SOC environment.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## SOC Labs
+[Active Directory Project](./AD-Project)
