@@ -4,15 +4,6 @@ title: CTFs
 permalink: /ctfs/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+CTF challenges are cybersecurity competitions that require participants to solve a variety of tasks related to cryptography, reverse engineering, binary exploitation, web vulnerabilities, and more. These projects demonstrate my ability to think critically and solve complex security issues in a competitive environment. Each CTF project includes a detailed breakdown of the challenge, my approach to solving it, and the lessons learned.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## CTF Competitions
