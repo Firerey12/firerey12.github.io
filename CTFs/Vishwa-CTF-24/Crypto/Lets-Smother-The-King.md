@@ -44,7 +44,8 @@ White- Ke1,Qe5,Rc1,Rh1,Ne6,a2,b3,d2,f2,h2 Black- Ka8,Qh3,Rg8,Rh8,Bg7,a7,b7,e4,g2
 
 Thereafter I just decided to use an online chess tool (https://nextchessmove.com/) to set up the board and also solve the moves (since I was lazy to solve the puzzle myself).
 
-![Puzzle Solve](https://github.com/Firerey12/VishwaCTF_2024_Write_Ups/blob/f327b50e93a9f35d43e6578fb8061d0514f04d25/Cryptography/Lets%20smother%20the%20King!/Solution/puzzle_solve.png)
+![puzzle_solve](https://github.com/user-attachments/assets/2dd31e23-6f1d-4c5e-bd0d-27f5d69a4e78)
+
 
 That gave us the moves for the flag:
 
