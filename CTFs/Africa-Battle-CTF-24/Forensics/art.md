@@ -2,7 +2,7 @@
 layout: page
 title: Art
 categories: CTFs
-permalink: /ctfs/africa-battle-ctf-24/forensics/art
+permalink: /ctfs/africa-battle-ctf-24/forensics/art/
 ---
 
 [Back to Forensics Challenges](../)
