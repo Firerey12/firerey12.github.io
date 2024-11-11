@@ -2,7 +2,7 @@
 layout: page
 title: Agent 47
 categories: CTFs
-permalink: /ctfs/africa-battle-ctf-24/forensics/symphony
+permalink: /ctfs/africa-battle-ctf-24/forensics/symphony/
 ---
 
 [Back to Forensics Challenges](../)
