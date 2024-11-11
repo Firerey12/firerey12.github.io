@@ -9,14 +9,16 @@ permalink: /ctfs/africa-battle-ctf-24/forensics/agent-47
 
 ## Problem
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/44ad1fd7-5768-482a-9e6c-18800afa15de/image.png)
+![description](https://github.com/user-attachments/assets/9c358a36-ea01-4ecf-8bd9-ea9b6b3b8e99)
+
 
 Files Provided:
 - Agent 47
   
 Opening this file in a text editor we get a scrambled file.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/a2138e65-b684-46c7-a7ec-2b1b25b9e8ad/image.png)
+![scrambled](https://github.com/user-attachments/assets/d945604c-2569-421c-aa09-addc96f262cb)
+
 
 Looking closer we can see that it’s a PNG file with every two bytes being swapped with each other for example %PNG has become P%GN and IHDR has become HIRD.
 
@@ -48,7 +50,8 @@ swap_bytes_in_file(input_filename, output_filename)
 
 This gives us the below PNG:
 
-![output.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/40774e41-4f79-4a76-a19d-717c4cca8e73/output.png)
+![output](https://github.com/user-attachments/assets/a7e28560-6f76-4f0c-ae74-8d1ae93f700f)
+
 
 Looking into it we don’t really find anything interesting. Even after using tools such as Binwalk, Exiftool and Stegsolve, we don’t find anything interesting.
 
