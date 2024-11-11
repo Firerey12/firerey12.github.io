@@ -9,6 +9,6 @@ These are the Forensics challenges that I was able to solve in the Africa Battle
 
 ## Forensics Challenges
 - [Agent 47](./agent-47)
-- [Let's Smother The King](./lets-smother-the-king)
-- [Poly Fun](./poly-fun)
-- [Teyvat Tales](./teyvat-tales)
+- [Art](./art)
+- [Symphony](./symphony)
+- [Doro x2](./dororo)
