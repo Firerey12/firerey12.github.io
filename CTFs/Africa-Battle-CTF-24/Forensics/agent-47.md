@@ -2,7 +2,7 @@
 layout: page
 title: Agent 47
 categories: CTFs
-permalink: /ctfs/africa-battle-ctf-24/forensics/agent-47
+permalink: /ctfs/africa-battle-ctf-24/forensics/agent-47/
 ---
 
 [Back to Forensics Challenges](../)
