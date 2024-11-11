@@ -8,3 +8,4 @@ CTF challenges are cybersecurity competitions that require participants to solve
 
 ## CTF Competitions
 - [Vishwa CTF 2024](./Vishwa-CTF-24)
+- [Africa Battle CTF 2024](./africa-battle-ctf-24)
