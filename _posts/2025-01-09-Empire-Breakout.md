@@ -5,8 +5,9 @@ categories: VulnHub Machines
 permalink: /vulnhub/empire-breakout
 ---
 
-Author: Icex64 & Empire Cybersecurity
+
 Machine: [https://www.vulnhub.com/entry/empire-breakout,751/](https://www.vulnhub.com/entry/empire-breakout,751/)
+Machine Author: [icex64 & Empire Cybersecurity](https://www.vulnhub.com/author/icex64-empire-cybersecurity,821/)
 
 ## Nmap
 
