@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Empire-Breakout
+title: VulnHub Empire-Breakout Writeup
 categories: VulnHub Machines
 permalink: /vulnhub/empire-breakout
 ---
