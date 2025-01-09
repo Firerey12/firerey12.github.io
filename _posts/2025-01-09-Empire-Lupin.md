@@ -5,6 +5,9 @@ categories: VulnHub Machines
 permalink: /vulnhub/empire-lupin
 ---
 
+Machine: [https://www.vulnhub.com/entry/empire-lupinone,750/](https://www.vulnhub.com/entry/empire-lupinone,750/)
+Machine Author: [icex64 & Empire Cybersecurity](https://www.vulnhub.com/author/icex64-empire-cybersecurity,821/)
+
 ## Nmap
 
 ```bash
