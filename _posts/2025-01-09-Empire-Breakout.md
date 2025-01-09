@@ -6,6 +6,7 @@ permalink: /vulnhub/empire-breakout
 ---
 
 Author: Icex64 & Empire Cybersecurity
+Machine: [https://www.vulnhub.com/entry/empire-breakout,751/](https://www.vulnhub.com/entry/empire-breakout,751/)
 
 ## Nmap
 
@@ -114,7 +115,7 @@ We can see that there is a local user with the username cyber. Let’s try using
 ![3](https://github.com/user-attachments/assets/8275438b-88ba-4f0b-80f9-0b35da20197d)
 
 
-Well, that didn’t work. There is another service Usernmin running on port 20000. We can check to see if the credentials work there.
+Well, that didn’t work. There is another service Usermin running on port 20000. We can check to see if the credentials work there.
 
 ![4](https://github.com/user-attachments/assets/95f7ce8d-5992-4189-9365-8eb3cf20fe7d)
 
@@ -160,7 +161,7 @@ We can try and see if we can read the /etc/shadow file.
 
 And sure enough we can.
 
-We can try and crack the hashes offline, but considering the password for cyber was complex, we can see if we have any other way.
+We can try and crack the hashes offline, but considering the password for cyber was complex, we should check to see if we have any other way.
 
 Since we can read any file as root, we can look for interesting files owned by root in any of the usual places such as /var/backup or /opt.
 
@@ -184,5 +185,3 @@ Let’s try to su to root using this pass.
 And there we go, we finally have root
 
 ![14](https://github.com/user-attachments/assets/b4681ba9-e7c7-481b-b147-3fb6bb338079)
-
-https://www.vulnhub.com/entry/empire-breakout,751/
