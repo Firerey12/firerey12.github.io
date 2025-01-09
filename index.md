@@ -15,5 +15,6 @@ Welcome to my project portfolio/blog! Here, you'll find a collection of hands-on
 - [SOC Projects](./socs)
 - [Cyberdefenders Challenges](./cyberdefenders)
 - [Overthewire Challenges](./overthewire)
+- [VulnHub Machines](./vulnhub)
 
 ## Recent Posts
