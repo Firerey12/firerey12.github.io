@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Empire-Lupin
+title: VulnHub Empire-Lupin Writeup
 categories: VulnHub Machines
 permalink: /vulnhub/empire-lupin
 ---
