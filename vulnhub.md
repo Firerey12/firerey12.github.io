@@ -11,3 +11,4 @@ VulnHub is a platform that hosts vulnerable machines to practice penetration tes
 - [Empire: Lupin](./empire-lupin)
 - [Jangow01](./jangow01)
 - [ICA:1](./ica-1)
+- [DoubleTrouble](./double-trouble)
