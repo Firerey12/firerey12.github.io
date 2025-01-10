@@ -2,7 +2,7 @@
 layout: post
 title: VulnHub DrippingBlues-1 Writeup
 categories: VulnHub Machines
-permalink: /vulnhub/dripping-blues
+permalink: /vulnhub/dripping-blues-1
 ---
 
 Machine: [https://www.vulnhub.com/entry/dripping-blues-1,744/](https://www.vulnhub.com/entry/dripping-blues-1,744/)
