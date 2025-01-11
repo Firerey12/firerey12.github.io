@@ -5,6 +5,10 @@ categories: VulnHub Machines
 permalink: /vulnhub/beelzebub-1
 ---
 
+Machine: [https://www.vulnhub.com/entry/beelzebub-1,742/](https://www.vulnhub.com/entry/beelzebub-1,742/)
+Machine Author: [Shaurya Sharma](https://www.vulnhub.com/author/shaurya-sharma,818/)
+
+
 ## Nmap
 
 ```bash
