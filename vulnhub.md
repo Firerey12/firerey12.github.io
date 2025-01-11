@@ -16,3 +16,4 @@ VulnHub is a platform that hosts vulnerable machines to practice penetration tes
 - [Corrosion: 2](./corrosion-2)
 - [Beelzebub: 1](./beelzebub-1)
 - [Development](./development)
+- [Torment](./torment)
