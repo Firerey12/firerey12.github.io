@@ -5,6 +5,9 @@ categories: VulnHub Machines
 permalink: /vulnhub/wintermute
 ---
 
+Machine: [https://www.vulnhub.com/entry/wintermute-1,239/](https://www.vulnhub.com/entry/wintermute-1,239/)
+Machine Author: [creosote](https://www.vulnhub.com/author/creosote,584/)
+
 This is a lab that deals with two VMs
 
 ## Network Topology
