@@ -1,8 +1,8 @@
 ---
 layout: post
-title: VulnHub Empire-Breakout Writeup
+title: VulnHub Development Writeup
 categories: VulnHub Machines
-permalink: /vulnhub/empire-breakout
+permalink: /vulnhub/development
 ---
 
 Machine: [https://www.vulnhub.com/entry/digitalworldlocal-development,280/](https://www.vulnhub.com/entry/digitalworldlocal-development,280/)
