@@ -751,7 +751,7 @@ uid=0(root) gid=0(root)
 
 ```
 
-There we go we do get root and are able to read root files. It may not be a complete root, but we can read crucial files owned by root.
+There we go we do get root although it's still a limited root. We can add an ssh key for the root user and then ssh into root to get full root.
 
 ## Final Thoughts
 
